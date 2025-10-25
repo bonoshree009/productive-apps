@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png",
+    "title": "TaskFlow Manager",
+    "companyName": "ACME Industries Ltd.",
+    "id": 1,
+    "description": "TaskFlow Manager helps you organize your daily work efficiently.\nEasily create, update, and track all your projects in one place.\nIt comes with smart reminders and team collaboration tools.\nThe clean interface ensures distraction-free productivity.\nStay ahead of deadlines and manage your time effectively.",
+    "size": 45,
+    "reviews": 1250,
+    "ratingAvg": 4.7,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 790 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/833/833314.png",
+    "title": "HealthMate Tracker",
+    "companyName": "WellTech Solutions",
+    "id": 2,
+    "description": "HealthMate Tracker monitors your daily steps, calories, and sleep.\nSet fitness goals and track your progress in real-time.\nGet personalized health tips and reminders for workouts.\nThe app syncs seamlessly with your smartwatch and devices.\nStay fit and motivated every day with HealthMate.",
+    "size": 60,
+    "reviews": 980,
+    "ratingAvg": 4.5,
+    "downloads": 67000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 465 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/201/201634.png",
+    "title": "EduSmart Learn",
+    "companyName": "Bright Future Tech",
+    "id": 3,
+    "description": "EduSmart Learn offers interactive courses for all ages.\nIt features video lessons, quizzes, and progress tracking.\nTeachers and students can collaborate easily within the app.\nOffline access helps you learn anytime, anywhere.\nGrow your knowledge with a fun and engaging experience.",
+    "size": 120,
+    "reviews": 2100,
+    "ratingAvg": 4.8,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1375 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/263/263142.png",
+    "title": "ShopEase",
+    "companyName": "NextGen Retailers",
+    "id": 4,
+    "description": "ShopEase brings all your favorite brands into one app.\nDiscover new deals and discounts daily on top products.\nFast checkout, secure payment, and quick delivery included.\nUsers love its personalized recommendations and wishlist.\nShop smarter and save more with ShopEase.",
+    "size": 85,
+    "reviews": 3200,
+    "ratingAvg": 4.6,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1880 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2331/2331948.png",
+    "title": "FinancePro",
+    "companyName": "SecureMoney Systems",
+    "id": 5,
+    "description": "FinancePro helps you manage your budget and expenses.\nTrack income, spending, and savings with visual insights.\nReceive real-time alerts for due bills and transactions.\nYour financial data is encrypted and securely stored.\nPlan your future wisely with FinancePro today.",
+    "size": 70,
+    "reviews": 1500,
+    "ratingAvg": 4.4,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 710 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/727/727218.png",
+    "title": "MusicVibe",
+    "companyName": "Harmony Digital",
+    "id": 6,
+    "description": "MusicVibe lets you stream your favorite songs anytime.\nCreate playlists and share them with your friends.\nEnjoy high-quality sound and offline downloads.\nDiscover trending artists and personalized recommendations.\nFeel the rhythm of life with MusicVibe.",
+    "size": 90,
+    "reviews": 2500,
+    "ratingAvg": 4.9,
+    "downloads": 310000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 480 },
+      { "name": "5 star", "count": 1800 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2910/2910763.png",
+    "title": "PhotoGenix",
+    "companyName": "PixelCraft Labs",
+    "id": 7,
+    "description": "PhotoGenix turns your photos into stunning artworks.\nApply filters, effects, and AI enhancements with one tap.\nEdit portraits, landscapes, and selfies effortlessly.\nShare your creations directly on social media.\nMake every moment picture-perfect with PhotoGenix.",
+    "size": 110,
+    "reviews": 1900,
+    "ratingAvg": 4.6,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1040 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1239/1239334.png",
+    "title": "TravelNest",
+    "companyName": "GlobeGo Solutions",
+    "id": 8,
+    "description": "TravelNest helps you plan trips with ease and comfort.\nFind hotels, restaurants, and attractions nearby.\nSave favorite destinations and create itineraries.\nAccess reviews and travel guides from real explorers.\nMake every journey memorable with TravelNest.",
+    "size": 95,
+    "reviews": 1750,
+    "ratingAvg": 4.7,
+    "downloads": 125000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 925 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1087/1087848.png",
+    "title": "NoteKeeper",
+    "companyName": "CloudSync Ltd.",
+    "id": 9,
+    "description": "NoteKeeper allows you to write, store, and sync your notes.\nOrganize ideas with tags and folders easily.\nSupports voice notes and image attachments.\nData syncs automatically across all your devices.\nKeep your thoughts secure and organized with NoteKeeper.",
+    "size": 40,
+    "reviews": 800,
+    "ratingAvg": 4.3,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 240 },
+      { "name": "5 star", "count": 355 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/414/414927.png",
+    "title": "WeatherWise",
+    "companyName": "SkyTech Analytics",
+    "id": 10,
+    "description": "WeatherWise gives you real-time weather updates and alerts.\nSee hourly forecasts, air quality, and radar maps.\nCustom notifications keep you ready for any weather change.\nSupports both light and dark themes for readability.\nStay informed and plan ahead with WeatherWise.",
+    "size": 55,
+    "reviews": 1450,
+    "ratingAvg": 4.5,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1006/1006771.png",
+    "title": "CodeMaster IDE",
+    "companyName": "DevStudio Inc.",
+    "id": 11,
+    "description": "CodeMaster IDE offers a smooth coding experience for developers.\nIt supports syntax highlighting, debugging, and live preview.\nIntegrated Git tools make version control easier than ever.\nCustomize your workspace with themes and extensions.\nCode, build, and deploy—all in one place.",
+    "size": 180,
+    "reviews": 3200,
+    "ratingAvg": 4.8,
+    "downloads": 275000,
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 85 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 2260 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2101/2101323.png",
+    "title": "ChatConnect",
+    "companyName": "LinkUp Networks",
+    "id": 12,
+    "description": "ChatConnect lets you message friends with fast, secure chats.\nSupports text, voice, and video calls in HD quality.\nShare photos, files, and locations easily within conversations.\nGroup chats and channels make staying connected simple.\nExperience seamless communication worldwide.",
+    "size": 150,
+    "reviews": 4100,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2991/2991146.png",
+    "title": "Readify",
+    "companyName": "BookVerse Media",
+    "id": 13,
+    "description": "Readify gives access to thousands of eBooks and audiobooks.\nPersonalized reading lists recommend books you’ll love.\nOffline reading mode lets you enjoy stories anywhere.\nTrack progress and set goals to improve your reading habit.\nExplore endless worlds of imagination with Readify.",
+    "size": 95,
+    "reviews": 1900,
+    "ratingAvg": 4.5,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1040 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2913/2913293.png",
+    "title": "MindZen",
+    "companyName": "CalmCore Studios",
+    "id": 14,
+    "description": "MindZen helps you meditate, focus, and sleep better.\nGuided sessions reduce stress and anxiety effectively.\nTrack your mood and mindfulness progress daily.\nSoft music and ambient sounds create relaxation.\nFind peace of mind with MindZen anytime, anywhere.",
+    "size": 80,
+    "reviews": 2700,
+    "ratingAvg": 4.8,
+    "downloads": 210000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 2040 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1046/1046784.png",
+    "title": "Foodly",
+    "companyName": "EatSmart Ltd.",
+    "id": 15,
+    "description": "Foodly connects you with nearby restaurants instantly.\nOrder your favorite dishes with just a few taps.\nTrack delivery in real-time on the interactive map.\nEnjoy exclusive deals and discounts daily.\nEat well, live better with Foodly.",
+    "size": 100,
+    "reviews": 3100,
+    "ratingAvg": 4.6,
+    "downloads": 450000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1800 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2965/2965567.png",
+    "title": "FitZone",
+    "companyName": "ActiveCore Fitness",
+    "id": 16,
+    "description": "FitZone provides workout plans for all fitness levels.\nTrack calories, strength, and cardio sessions easily.\nAccess video tutorials by certified trainers.\nJoin challenges and share progress with friends.\nTransform your health journey with FitZone.",
+    "size": 85,
+    "reviews": 2500,
+    "ratingAvg": 4.7,
+    "downloads": 270000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1670 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3064/3064197.png",
+    "title": "SecureVault",
+    "companyName": "SafeData Systems",
+    "id": 17,
+    "description": "SecureVault stores your passwords and personal data safely.\nAll data is encrypted using top-grade security standards.\nAuto-fill and password generator features included.\nAccess your vault from any trusted device easily.\nStay protected from cyber threats with SecureVault.",
+    "size": 65,
+    "reviews": 1800,
+    "ratingAvg": 4.9,
+    "downloads": 160000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 360 },
+      { "name": "5 star", "count": 1280 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1077/1077035.png",
+    "title": "Eventify",
+    "companyName": "TrendHub Events",
+    "id": 18,
+    "description": "Eventify helps you discover events near your location.\nBook tickets, set reminders, and share plans with friends.\nSupports concerts, meetups, and online webinars.\nCustom recommendations based on your interests.\nNever miss out on fun again with Eventify.",
+    "size": 90,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 80000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 595 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3039/3039460.png",
+    "title": "LanguageBuddy",
+    "companyName": "LinguaTech",
+    "id": 19,
+    "description": "LanguageBuddy teaches new languages interactively.\nFeatures lessons, quizzes, and conversation practice.\nTrack your fluency progress and earn badges.\nSupports multiple languages including Spanish, French, and Japanese.\nLearn languages efficiently and fun with LanguageBuddy.",
+    "size": 140,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": 190000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1270 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1006/1006775.png",
+    "title": "NewsFlash",
+    "companyName": "Global Media Corp",
+    "id": 20,
+    "description": "NewsFlash delivers the latest news from around the world.\nPersonalized feeds let you follow topics of interest.\nSupports notifications for breaking news and updates.\nRead articles, watch videos, and stay informed.\nYour trusted companion for news anytime, anywhere.",
+    "size": 105,
+    "reviews": 3300,
+    "ratingAvg": 4.6,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1860 }
+    ]
+  }
+]

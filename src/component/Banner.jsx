@@ -9,8 +9,8 @@ const Banner = () => {
         <div className='text-center pt-9 constiner max-auto bg-gray-200'>
          <h1 className='text-6xl font-bold '>We Build <br /> <span className='text-[#9F62F2]'>Productive</span> Apps</h1>
          <p className='text-gray-400 my-4'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br />Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
-         <button className='btn font-bold bg-white'> <img src={playstoreImg} alt=""  className='h-8 '/>Google Play</button>
-         <button  className='btn font-bold bg-white ml-4'> <img src={appsotreImg} alt=""  className='h-5'/>App Store</button>
+         <button className='btn font-bold bg-white'> <img src={playstoreImg} alt=""  className='h-8 '/><a href='https://play.google.com/store/games?hl=en'>Google Play</a></button>
+         <button  className='btn font-bold bg-white ml-4'> <img src={appsotreImg} alt=""  className='h-5'/><a href='https://www.apple.com/app-store/'>App store</a></button>
          <div className='flex items-center justify-center mt-4'>  <img src={bannarImg} alt=""  className=''/></div>
 
          <div className='bg-linear-to-t from-[#9F62F2] to-[#632EE3] text-white py-16'>

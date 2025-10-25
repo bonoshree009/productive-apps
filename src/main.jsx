@@ -8,6 +8,7 @@ import Root from './Root.jsx';
 import Home from './component/Home.jsx';
 import ErrorPage from './component/ErrorPage.jsx';
 import Apps from './component/Pages.jsx/Apps.jsx';
+import CardDetails from './component/CardDetails.jsx';
 
 
 const router = createBrowserRouter([
@@ -17,8 +18,8 @@ const router = createBrowserRouter([
     errorElement: ErrorPage ,
      children :[
         { index :true , Component : Home},
-       {path : 'apps' , Component: Apps }
-    //     {path : 'contact', Component : Contact },
+       {path : 'apps' , Component: Apps },
+        {path : 'details/:id', Component : CardDetails },
     //     {path : 'users' ,
     //       loader : () => fetch ('https://jsonplaceholder.typicode.com/users'),
     //       Component : Users

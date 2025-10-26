@@ -52,30 +52,30 @@ const CardDetails = () => {
 
     }
     return (
-        <div className='bg-gray-100 py-8 p-20 '>
-           <div className='flex gap-10  items-center py-14 border-b-2 border-gray-400'>
-            <div className='bg-white p-6'><img src={detailsData.image} alt="" className='h-[300px]' /></div>
-            <div>
-                <h1 className='text-3xl font-bold'>{detailsData.title}</h1>
+        <div className='bg-gray-100 py-8  p-2 md:p-20 '>
+           <div className='flex flex-col md:flex-row gap-10  items-center py-14 border-b-2 border-gray-400'>
+            <div className='bg-white p-6'><img src={detailsData.image} alt="" className=' h-6 md:h-[300px]' /></div>
+            <div className='p-2'>
+                <h1 className=' text-xl md:text-3xl font-bold'>{detailsData.title}</h1>
                 <p className='text-gray-400 mb-3'>Develop By <span className='text-blue-500'>{detailsData.companyName}</span></p>
                 <  hr />
-                <div className='flex gap-10 my-5 justify-between items-center'>
+                <div className='flex  gap-2 md:gap-10 my-5 justify-between items-center'>
                    <div>
-                    <img src={downloadImg} alt="" />
+                    <img src={downloadImg} alt=""  className='h-4 md:h-10'/>
                    <p className='mt-3'>Downloads</p>
-                   <p className='text-3xl font-bold mt-3'>{detailsData.downloads}</p>
+                   <p className=' text-xl md:text-3xl font-bold mt-3'>{detailsData.downloads}</p>
                    </div>
                    
                      <div>
-                    <img src={ratingImg} alt="" />
+                    <img src={ratingImg} alt="" className='h-4 md:h-10' />
                    <p className='mt-3'>Average Rating</p>
-                   <p className='text-3xl font-bold mt-3'>{detailsData.ratingAvg}</p>
+                   <p className='text-xl md:text-3xl font-bold mt-3'>{detailsData.ratingAvg}</p>
                    </div>
 
                      <div>
-                    <img src={reviewImg} alt="" />
+                    <img src={reviewImg} alt=""  className='h-4 md:h-10'/>
                    <p className='mt-3'>Downloads</p>
-                   <p className='text-3xl font-bold mt-3'>{detailsData.reviews}</p>
+                   <p className='text-xl md:text-3xl font-bold mt-3'>{detailsData.reviews}</p>
                    </div>
                 </div>
 
@@ -83,12 +83,12 @@ const CardDetails = () => {
                        <ToastContainer />
             </div>
            </div>
-           <p className='mt-5 font-bold text-3xl'>Ratings</p>
+           <p className='my-5 font-bold text-3xl'>Ratings</p>
             
 
-                   <div className="bg-white p-6 rounded-lg shadow">
+                   <div className="bg-white p-1 md:p-6 rounded-lg shadow">
          
-            <BarChart data={detailsData.ratings}  width={550} height={340}  layout="vertical" margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
+            <BarChart data={detailsData.ratings}  width={200} md:width={550} height={340}  layout="vertical" margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
              
                 <XAxis type="number" />
                <YAxis dataKey="name" type="category" />

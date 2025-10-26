@@ -22,6 +22,7 @@ const router = createBrowserRouter([
         {path : 'apps' , Component: Apps },
         {path : 'details/:id', Component : CardDetails },
        {path : 'install' , Component : Installation },
+       { path: '*', Component: ErrorPage },
         
    
     ]

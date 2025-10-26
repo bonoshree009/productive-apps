@@ -1,15 +1,21 @@
 import React, { useState } from 'react';
 import useData from '../useData';
 import Card from '../Card';
+import Loading from '../Loading';
+
 
 const Apps = () => {
- const  [products]= useData()
+ const  [products,loading]= useData()
  const [search,setsearch] =useState((''))
  //console.log(search)
  const term = search.trim().toLocaleLowerCase()
  const searchproducts =term? products.filter(pro => pro.title.toLocaleLowerCase().includes(term)) : products
 console.log(searchproducts)
 
+if(loading){
+    return <Loading></Loading>
+
+}
   
 
     return (
@@ -33,7 +39,7 @@ console.log(searchproducts)
             </div>
             {searchproducts.length  == 0 ?
                 (<h1 className='text-4xl py-16 text-blue-600 font-bold text-center'>No apps Found</h1>) :(
-            <div className='grid grid-cols-2 md:grid-cols-4  px-10'>  {
+            <div className='grid grid-cols-1 md:grid-cols-4  px-10'>  {
                 searchproducts.map(card => ( <Card card={card}></Card> ))
                 }
                 </div>

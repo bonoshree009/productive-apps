@@ -3,9 +3,16 @@ import Banner from './Banner';
 import useData from './useData';
 import Card from './Card';
 import { Link, NavLink } from 'react-router';
+import Loading from './Loading';
 
 const Home = () => {
-    const  [products,loading,error]=useData()
+    const  [products,loading]=useData()
+
+    if(loading){
+    return <Loading></Loading>
+
+}
+  
     
     const homedata = products.slice(0,8)
     return (

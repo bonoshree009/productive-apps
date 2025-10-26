@@ -18,8 +18,9 @@ const Header = () => {
         tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
         <li><Link to ="/">Home</Link> </li>
-        <li><NavLink to='/apps'>Apps</NavLink> </li>
-        <li><a>Installation</a></li>
+        <li><NavLink to='./apps'>Apps</NavLink> </li>
+         <li><NavLink to='./install'>Installation</NavLink></li>
+      
 
       </ul>
     </div>
@@ -29,7 +30,7 @@ const Header = () => {
     <ul className="menu menu-horizontal px-1">
       <li><Link to ="/">Home</Link> </li>
         <li><NavLink to='./apps'>Apps</NavLink> </li>
-      <li><a>Installation</a></li>
+        <li><NavLink to='./install'>Installation</NavLink> </li>
     </ul>
   </div>
   <div className="navbar-end">

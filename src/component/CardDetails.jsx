@@ -6,7 +6,9 @@ import ratingImg from '../assets/icon-ratings.png'
 import reviewImg from '../assets/icon-review.png'
 import Loading from './Loading';
 import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
-  import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
+
+
 const CardDetails = () => {
     const {id} = useParams()
     const [products] =useData()

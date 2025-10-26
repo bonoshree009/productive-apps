@@ -24,7 +24,7 @@ const Header = () => {
 
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl text-blue-700"> <img src={logoimg} alt="" className='h-7' />Hero.Io</a>
+    <Link to='/' className="btn btn-ghost text-xl text-blue-700"> <img src={logoimg} alt="" className='h-7' />Hero.Io</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

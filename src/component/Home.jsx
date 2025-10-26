@@ -22,6 +22,9 @@ const Home = () => {
  <div className='flex justify-center '> <button className='btn text-2xl px-10 py-8 bg-linear-to-r from-[#632EE3]
   to-[#9F62F2] text-white text center items-center my-5'><NavLink to='./apps'>See All</NavLink> </button> 
 </div>
+
+
+
         </div>
     );
 };

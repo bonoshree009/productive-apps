@@ -5,7 +5,7 @@ import downloadImg from '../assets/icon-downloads.png'
 import ratingImg from '../assets/icon-ratings.png'
 import reviewImg from '../assets/icon-review.png'
 import Loading from './Loading';
-import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { ToastContainer, toast } from 'react-toastify';
 
 
@@ -87,16 +87,16 @@ const CardDetails = () => {
             
 
                    <div className="bg-white p-1 md:p-6 rounded-lg shadow">
-         
-            <BarChart data={detailsData.ratings}  width={200} md:width={550} height={340}  layout="vertical" margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
+         <ResponsiveContainer width="100%" height={340} >
+            <BarChart data={detailsData.ratings}   layout="vertical" margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
              
                 <XAxis type="number" />
                <YAxis dataKey="name" type="category" />
               <Tooltip />
               <Bar dataKey="count" fill="#34d399" activeBar={{ stroke: '#059669', strokeWidth: 1 }} />
-            </BarChart>
+            </BarChart></ResponsiveContainer>
         </div>
-        <p className='my-5 font-bold text-3xl'>Description</p>
+        <p className='my-5 font-bold text-3xl'>Description</p> 
      <p>{detailsData.description}</p>
          
 

@@ -7,12 +7,20 @@ import Loading from '../Loading';
 const Apps = () => {
  const  [products,loading]= useData()
  const [search,setsearch] =useState((''))
+
+
  //console.log(search)
+ const handleseach =(e)=>{
+        setsearch(e.target.value)
+      
+       
+
+ }
  const term = search.trim().toLocaleLowerCase()
  const searchproducts =term? products.filter(pro => pro.title.toLocaleLowerCase().includes(term)) : products
 console.log(searchproducts)
 
-if(loading){
+if(loading ){
     return <Loading></Loading>
 
 }
@@ -34,7 +42,7 @@ if(loading){
       <path d="m21 21-4.3-4.3"></path>
     </g>
              </svg>
-             <input type="search"  placeholder="Search" onChange={(e)=> setsearch(e.target.value)} value={search}/>
+             <input type="search"  placeholder="Search" onChange={handleseach} value={search}/>
           </label>
             </div>
             {searchproducts.length  == 0 ?

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import downloadImg from '../../assets/icon-downloads.png'
 import ratingImg from '../../assets/icon-ratings.png'
 import { toast, ToastContainer } from 'react-toastify';
+import { NavLink } from 'react-router';
 
 
 const Installation = () => {
@@ -101,6 +102,7 @@ const Installation = () => {
                         )} )
                        }
            <ToastContainer />
+          <div className='flex justify-center my-5'> <NavLink to='/' className='btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white'>Go To Home</NavLink></div>
         </div>
     );
 };
